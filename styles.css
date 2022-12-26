@@ -1,0 +1,60 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-link {
+    font-weight: bold;
+    color:#F9FAF8;
+    font-size: 24px;
+}
+
+.right-link {
+    color:#E5E7EB;
+    font-weight: 18px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:320px;
+    margin-top: 100px;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    align-items: flex-start;
+    max-width: 450px;
+}
+
+ul {
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.image {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+
